@@ -12,6 +12,8 @@ public class scriptPC : MonoBehaviour
     public AudioClip somColeta;
     public AudioClip somMorte;
     public AudioClip somComerFantasma;
+    public AudioClip musicaInicio;
+    private AudioSource audioSourceMusica;
     
     [Header("Referências")]
     public Transform cameraTransform;
@@ -30,6 +32,15 @@ public class scriptPC : MonoBehaviour
 
         posicaoInicial = transform.position;
         rotacaoInicial = transform.rotation;
+
+        if (musicaInicio != null)
+        {
+            audioSourceMusica = gameObject.AddComponent<AudioSource>();
+            audioSourceMusica.clip = musicaInicio;
+            audioSourceMusica.loop = false;
+            audioSourceMusica.playOnAwake = false;
+            audioSourceMusica.Play();
+        }
     }
 
     void OnEnable()
@@ -208,14 +219,24 @@ public class scriptPC : MonoBehaviour
         }
     }
 
-    private void BloquearEntrada()
+    private void BlockearEntrada()
     {
         jogoFinalizado = true;
         Cursor.lockState = CursorLockMode.None;
+
+        if (audioSourceMusica != null)
+        {
+            audioSourceMusica.Stop();
+        }
 
         if (somMorte != null)
         {
             AudioSource.PlayClipAtPoint(somMorte, transform.position);
         }
+    }
+
+    private void BloquearEntrada()
+    {
+        BlockearEntrada();
     }
 }

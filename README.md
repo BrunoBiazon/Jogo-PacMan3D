@@ -24,7 +24,7 @@ Um jogo de labirinto em primeira pessoa inspirado no clássico Atari Pac-Man. O 
 * `scriptGhost.cs`: Script dos fantamas inimigos, Controla a IA dos inimigos, estados de patrulha, perseguição e vulnerabilidade.
 * `scriptGameManager.cs`: Gerenciador de placar, contagem de vidas e o ciclo de vida do jogo.
 
-# Assets utilizados
+## Assets utilizados
 * Chomp Man - Kit de Jogo 3D e Tutorial: https://assetstore.unity.com/packages/templates/tutorials/chomp-man-3d-game-kit-tutorial-174982?srsltid=AfmBOorLb4F1DuY-KnRkjzbpy1-lnYv4YQiJ1PTkdF5uEOUU4_vj-TIs
 
 ## Tecnologias Utilizadas

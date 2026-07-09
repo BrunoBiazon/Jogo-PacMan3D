@@ -2749,7 +2749,7 @@ MonoBehaviour:
   - {fileID: 1724871888}
   - {fileID: 1065428133}
   - {fileID: 544474167}
-  distanciaPerseguicao: 4.5
+  distanciaPerseguicao: 4.62
   distMin: 5
   velocidadeNormal: 3.5
   velocidadeVulneravel: 1.75
@@ -7767,6 +7767,7 @@ MonoBehaviour:
   somColeta: {fileID: 8300000, guid: 2e6d36960e555ac4cb14c82ff9579456, type: 3}
   somMorte: {fileID: 8300000, guid: f16e8b759e0cbf64ca5637a4bcd0dfeb, type: 3}
   somComerFantasma: {fileID: 8300000, guid: 3a27efeab14cbfd4ebd70d0f3c372637, type: 3}
+  musicaInicio: {fileID: 8300000, guid: 3940da68f41088a439d68108440e57d8, type: 3}
   cameraTransform: {fileID: 963194228}
 --- !u!23 &731464831
 MeshRenderer:
@@ -16493,12 +16494,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScaleFactor: 2.3
+  m_ReferenceResolution: {x: 1920, y: 200}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

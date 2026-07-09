@@ -8,7 +8,7 @@ public class scriptPauseUI : MonoBehaviour
 
     public void Retomar()
     {
-        scriptGameUI gameUI = FindObjectOfType<scriptGameUI>();
+        scriptGameUI gameUI = FindAnyObjectByType<scriptGameUI>();
         if (gameUI != null)
         {
             gameUI.RetomarJogo();

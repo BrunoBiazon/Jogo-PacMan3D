@@ -13,10 +13,13 @@
 ## 📸 Capturas de Tela
 
 ### Tela de Menu
+<img width="958" height="542" alt="image" src="https://github.com/user-attachments/assets/962f64e5-ac55-4a8d-925c-baf228ace1e3" />
 
 ### Jogo em Ação
+<img width="953" height="542" alt="image" src="https://github.com/user-attachments/assets/50a9b778-c591-451e-b16e-8c2957b10333" />
 
 ### Visão do Mapa/Labirinto na Unity
+<img width="1470" height="920" alt="image" src="https://github.com/user-attachments/assets/e61e0ea3-2bd2-4401-8025-cbbd58097bf9" />
 
 ---
 
